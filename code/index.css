@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap:16px;
+}
