@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+/*header*/
 .header{
     display: flex;
     padding: 15px;
@@ -14,4 +15,43 @@ ul{
     display: flex;
     list-style: none;
     gap:16px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+/*header done*/
+
+/*intro*/
+.intro{
+    height: 500px;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #f9faf8;
+}
+.image-holder{
+    width: 30%;
+    height: 50%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+.text{
+    width: 400px;
+}
+button{
+    background-color: blue;
+    padding: 5px;
 }
