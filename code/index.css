@@ -17,11 +17,13 @@ body{
 }
 ul{
     display: flex;
+    font-size: 25px;
     list-style: none;
-    gap:16px;
+    gap:20px;
 }
 .logo{
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bolder;
     color: #f9faf8;
 }
 /*header done*/
@@ -36,6 +38,9 @@ ul{
     align-items: center;
     gap: 100px;
 }
+.text{
+    max-width: 50%;
+}
 .title{
     font-size: 48px;
     font-weight: bolder;
@@ -44,6 +49,7 @@ ul{
 .secondary-text{
     font-size: 18px;
     color: #f9faf8;
+    max-width:600px;
 }
 .image-holder{
     display: flex;
@@ -60,15 +66,16 @@ ul{
     padding: 0px;
 }
 .text{
-    width: 400px;
+    width: 700px;
 }
 button{
-    background-color: blue;
+    background-color:#3882f6;
+    margin-top: 20px;
+    border-radius:10px;
     padding: 4px;
     color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
-    margin-top: 3px;
     width:100px;
 }
 
@@ -79,10 +86,10 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height:500px;
+    height:600px;
 }
 .Info .heading-text{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bolder;
     color:#1F2937;
     margin:30px;
@@ -92,13 +99,13 @@ button{
     gap: 50px;
 }
 .holders .text{
-    max-width: 200px;
+    max-width: 250px;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
 .holders .info .img{
-    width:200px;
-    height: 200px;
+    width:250px;
+    height: 250px;
     margin-bottom: 10px;
     border: 5px solid #3882f6;
     border-radius: 25px;
@@ -129,7 +136,7 @@ button{
 }
 .action{
     flex:1 0 auto;
-    height:500px;
+    height:350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -140,10 +147,10 @@ button{
     align-items: center;
     justify-content: space-between;
     background-color:#3882f6;
-    font-size: 36px;
+    font-size: 25px;
     width: 1000px;
-    height:70px;
-    padding:65px;
+    height:50px;
+    padding:40px;
 }
 .big-boom-text{
     max-width:800px; 
@@ -153,7 +160,7 @@ button{
     font-weight:bolder;
 }
 .textUnder{
-    font-size: 30px;
+    font-size: 20px;
 }
 .container-Call button{
     width:150px;
@@ -161,7 +168,7 @@ button{
     border: 5px solid #f9faf8;
     border-radius: 15px;
     background-color: #3882f6;
-    font-size: 25px;
+    font-size: 20px;
 }
 /*Call to Action done*/
 
@@ -173,5 +180,5 @@ button{
     align-items: center;
     justify-content: center;
     color:#E5E7EB;
-    font-size: 30px;
+    font-size: 15px;
 }
