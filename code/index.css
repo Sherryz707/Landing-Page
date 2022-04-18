@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 /*header*/
 .header{
     display: flex;
@@ -35,7 +39,7 @@ ul{
 .title{
     font-size: 48px;
     font-weight: bolder;
-    color: #030303;
+    color:#f9fAf8;
 }
 .secondary-text{
     font-size: 18px;
@@ -45,7 +49,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 20%;
     height: 50%;
     background-color: grey;
     color: white;
@@ -76,7 +80,6 @@ button{
     flex-direction: column;
     align-items: center;
     height:500px;
-    background-color: antiquewhite;
 }
 .Info .heading-text{
     font-size: 36px;
@@ -101,3 +104,62 @@ button{
     border-radius: 25px;
 }
 /*Random info done*/
+
+/*Quotation portion*/
+.quotation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    background-color: #E5E7EB;
+}
+.quote{
+    font-size: 36px;
+    font-weight: italic;
+    color: #1f2937;
+    max-width: 50%;
+}
+.author{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left:30%;
+
+}
+.action{
+    flex:1 0 auto;
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-Call{
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#3882f6;
+    font-size: 36px;
+    width: 1000px;
+    height:70px;
+    padding:65px;
+}
+.big-boom-text{
+    max-width:800px; 
+    color:#f9faf8;
+}
+.CALL{
+    font-weight:bolder;
+}
+.textUnder{
+    font-size: 30px;
+}
+.container-Call button{
+    width:150px;
+    height:50px;
+    border: 5px solid #f9faf8;
+    border-radius: 15px;
+    background-color: #3882f6;
+    font-size: 25px;
+}
