@@ -24,7 +24,7 @@ ul{
 
 /*intro*/
 .intro{
-    height: 500px;
+    height: 400px;
     display: flex;
     background-color: #1f2937;
     color: white;
@@ -35,7 +35,7 @@ ul{
 .title{
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #030303;
 }
 .secondary-text{
     font-size: 18px;
@@ -69,3 +69,30 @@ button{
 }
 
 /*intro done*/
+
+/*Random Information*/
+.Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:500px;
+    background-color: antiquewhite;
+}
+.Info .heading-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin:30px;
+}
+.holders{
+    display: flex;
+    gap:16px;
+}
+.holders .info, .holders .text{
+    max-width: 200px;
+}
+.holders .info .img{
+    width:200px;
+    height: 200px;
+    color:red;
+}
